@@ -1,0 +1,25 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0    900   528 ?        Sl   Sep28   0:00 /init
+root        12  0.0  0.0    908    88 ?        S    Sep28   0:00 /init
+prom      2593  0.0  0.0   7380   584 ?        S    Sep28   0:00 cat
+prom      2735  0.0  0.0   7380   584 ?        S    Sep28   0:00 cat
+prom      2989  0.0  0.0   7380   584 ?        S    Sep28   0:00 cat
+prom      3114  0.0  0.0   7380   584 ?        S    Sep28   0:00 cat
+prom      3228  0.0  0.0   5908  1860 ?        Ss   Sep28   0:00 /home/prom/CSCE-131-PAs/pa2-implementing-a-linux-shell-Prometheus1400/start
+prom      3254  0.0  0.0   7380   584 ?        S    Sep28   0:00 cat
+prom     19545 12.0  1.6 1074200 211820 pts/3  Sl+  10:09   0:45 /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/node /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/uriTransformer.js --useHostProxy=
+prom     19552  0.2  0.3 880404 40532 pts/3    Sl+  10:09   0:00 /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/node /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/bootstrap-fork --type=watcherService
+prom     19616  0.0  0.0  10660  5688 pts/4    Ss   10:09   0:00 /usr/bin/bash
+prom     19702  0.1  0.2 581432 34564 pts/3    Sl+  10:09   0:00 /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/node /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=19545
+prom     19712  2.4  0.4 1548096 55944 pts/3   Sl+  10:09   0:09 /home/prom/.vscode-server/extensions/ms-vscode.cpptools-1.7.0-insiders/bin/cpptools
+prom     19786  1.5  0.9 5251944 126392 pts/3  Sl+  10:09   0:05 /home/prom/.vscode-server/extensions/ms-vscode.cpptools-1.7.0-insiders/bin/cpptools-srv 19712 {7D931AF2-8241-45B5-AD74-22713E1090A2}
+prom     20935  0.0  0.0   7604  2304 pts/4    S+   10:14   0:00 make
+prom     20936  0.0  0.0   5920  3564 pts/4    S+   10:14   0:00 ./start
+prom     21094  0.0  0.0  10624  3316 pts/4    R+   10:15   0:00 ps aux
+root     26191  0.0  0.0    908    84 ?        Ss   07:00   0:00 /init
+root     26192  0.0  0.0    908    88 ?        S    07:00   0:00 /init
+prom     26193  0.0  0.0   2612   536 pts/3    Ss+  07:00   0:00 sh -c "$VSCODE_WSL_EXT_LOCATION/scripts/wslServer.sh" 7f6ab5485bbc008386c4386d08766667e155244e stable .vscode-server 0  
+prom     26194  0.0  0.0   2612  1788 pts/3    S+   07:00   0:00 sh /mnt/c/Users/jdick/.vscode/extensions/ms-vscode-remote.remote-wsl-0.58.2/scripts/wslServer.sh 7f6ab5485bbc008386c4386d08766667e155244e stable .vscode-server 0
+prom     26200  0.0  0.0   2612   600 pts/3    S+   07:00   0:00 sh /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/server.sh  --port=0 --use-host-proxy --without-browser-env-var --disable-websocket-compression --print-ip-address --enable-remote-auto-shutdown
+prom     26202  0.4  0.5 933192 75212 pts/3    Sl+  07:00   0:48 /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/node /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/main.js  --port=0 --use-host-proxy --without-browser-env-var --disable-websocket-compression --print-ip-address --enable-remote-auto-shutdown
+prom     26213  0.3  0.4 939812 58504 pts/3    Rl+  07:00   0:37 /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/node /home/prom/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/bootstrap-fork --type=ptyHost
